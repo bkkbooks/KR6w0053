@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6w0053/v1
+canonical_location: https://kanripo.org/bkk/KR6w0053/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 為二太子中元盂蘭薦福文
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D53/D53n8952.xml
+    old_id: D53n8952
+  edition:
+    short: bkk
+editions:
+- short: 國圖
+  label: 國圖
+  source_xml_id: wit.orig
+- short: D
+assets:
+  parts:
+  - {seq: 1, filename: KR6w0053_001.yaml, hash: 'sha256:2d52f19ac655ab8ba47a57c6fa429d98309d5779c5750155103b0a24f3240e43'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6w0053_001.markers.yaml, hash: 'sha256:063f768e0468cbc6075ae1a6b0eeb661ca3bbf338724fbb811236132d6709e0a'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6w0053_D_001-juan-start
+    span:
+    - body
+    - 0
+    - 541
+  label: ''
+  type: juan
+  level: 1
+hash: sha256:d541f4c95f606cd03c8a5075b2ed65503592c0cad3e0d6c7ccc6f87e0dc5a23a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

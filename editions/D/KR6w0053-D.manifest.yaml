@@ -1,0 +1,36 @@
+canonical_identifier: bkk:krp/KR6w0053/D/v1
+canonical_location: https://kanripo.org/bkk/KR6w0053/D/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 為二太子中元盂蘭薦福文
+  identifiers:
+    krp: KR6w0053
+    cbeta: D53n8952
+    cbeta_old_id: D53n8952
+    authorityid: CA0008052
+    json_key: D8952
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/D/D53/D53n8952.xml
+    old_id: D53n8952
+  edition:
+    short: D
+assets:
+  parts:
+  - {seq: 1, filename: KR6w0053_001-D.yaml, hash: 'sha256:11a194eea9e9a2ff4ca9d2d96a92c00d4b4837426bc36e34a7f9acd98e531a96'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6w0053_001-D.markers.yaml, hash: 'sha256:10ebab932f64cbf2b61e8a4371fcf8fbec0151abf02afbd9805d4722b36e339b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6w0053_D_001-juan-start
+    span:
+    - body
+    - 0
+    - 541
+  label: ''
+  type: juan
+  level: 1
+hash: sha256:b562f63350365c7fccb332075be57b8f3a65a6b2ce604c57ac0a08abdabc0ea2
